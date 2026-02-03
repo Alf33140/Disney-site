@@ -1,0 +1,5 @@
+command git site disney
+
+git remote add origin https://github.com/Alf33140/Disney-site.git
+git branch -M main
+git push -u origin main

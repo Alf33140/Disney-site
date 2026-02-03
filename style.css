@@ -1,5 +1,28 @@
 *{
-    margin:0;
+    margin:1%;
     Padding: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body{
+    width: 95%;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.Block1{
+    width: 98%;
+}
+.ecart1{
+    margin-left: 20px;
+    color:black;
 }
