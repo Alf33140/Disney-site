@@ -1,5 +1,5 @@
 *{
-    margin:1%;
+    margin-left: 1%;
     Padding: 0;
     box-sizing: border-box;
 }
@@ -21,8 +21,33 @@ body{
 }
 .Block1{
     width: 98%;
+    position: relative;
 }
 .ecart1{
     margin-left: 20px;
     color:black;
+}
+.LogoIncrust{
+    width: 30%;
+    position: absolute;
+    /* top: 10%; */
+    bottom: 48%;
+    right: 10%;
+    /* left: 10%; */
+}
+.LogoIncrust2{
+    width: 30%;
+    position: absolute;
+    /* top: 10%; */
+    bottom:43%;
+    right: 2%;
+    /* left: 10%; */
+}
+.Action{
+    width: 20%;
+    position: absolute;
+    top: 48%;
+    bottom:43%;
+    right: 2%;
+    left: 10%;
 }
