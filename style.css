@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 a {
-    text-decoration: none;
+    text-decoration: none; /* pas de decoration du texte, ici enleve le surlignage du lien */
 }
 body{
+    font-family: 'Hedvig Letters Serif', serif; /* mise en forme police text de tt le body */
     width: 95%;
 }
 .navbar{
@@ -17,7 +18,7 @@ body{
 
 .navbar ul{
     display: flex;
-    list-style-type: none;
+    list-style-type: none; /* enlevement des pucces */
 }
 .Block1{
     width: 98%;
@@ -39,15 +40,237 @@ body{
     width: 30%;
     position: absolute;
     /* top: 10%; */
-    bottom:43%;
-    right: 2%;
+    bottom:39.5%;
+    right: 3%;
     /* left: 10%; */
 }
 .Action{
+    border-radius: 20px;
     width: 20%;
     position: absolute;
-    top: 48%;
-    bottom:43%;
-    right: 2%;
+    top:60%;
+    bottom:35%;
+    right: 15%;
+}
+.Abonnement{
+    position: absolute;
+    top:90%;
+    right: 10%;
+}
+.Menubox{
+    position: relative;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 50px;
+ 
+    background-color: rgb(232, 224, 224);
+} 
+
+.Wond{
+    width: 99%; 
+    margin-top:1%;
+}
+.box_wonder{
+
+    padding: 95px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box2{
+
+    padding: 68px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box3{
+
+    padding: 59px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box4{
+
+    padding: 86px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.boxjumelee{
+    
+    width:20%;   
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+
+}
+
+.IncrustBox{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 9%;  
+}
+.IncrustBox2{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 30%;  
+}
+.IncrustBox3{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 51%;  
+}
+.IncrustBox4{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 72%;  
+}
+.MenuBox2{
+    display: flex;
+    justify-content: center;
+    
+    Position: relative;
+    Background-color:#054553;
+    color:white;
+}    
+.boxjumelee2{
+      width:96%;
+
+}
+
+.Wond2{
+    width: 20%; 
+
+}
+.box5{
+    padding: 20px;
+    background-color: #FFFFFF00;
+    text-align: left;
+    
+
+}
+.box6{
+    padding: 20px;
+ background-color: #FFFFFF00;
+    text-align: left;  
+
+}
+.box7{
+    padding: 20px;
+    background-color: #FFFFFF00;
+    text-align: left;
+
+}
+.Action2{
+ border-radius: 20px;
+    width: 20%;
+    position: absolute;
+    top:80%;
+    bottom:5%;
+    right: 15%;   
+}
+.box_wonder2{
+
+    padding: 93px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box12{
+
+    padding: 75px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box13{
+
+    padding: 75px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box14{
+
+    padding: 75px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.TltleParcs{
+    display:flex;
+    justify-content: center;
+    background-color: ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(232, 224, 224);
+}
+.Block12{
+    width:98%;
+    position: relative;
+}
+.Wond3{
+    width:95%; 
+    
+}
+.boxjumelee4{
+
+    width:20%;   
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    
+}
+.LogoIncrust12{
+    width: 20%;
+    position: absolute;
+    top: 590%;
+    bottom: 48%;
+    right: 10%;
     left: 10%;
+}
+.IncrustBox21{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 9%;  
+}
+.IncrustBox22{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 30%;  
+}
+.IncrustBox23{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 51%;  
+}
+.IncrustBox24{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 72%;  
+}
+.IncrustBox25{
+    position: absolute;
+    /* top: 10%; */
+    bottom:6%;
+    right: 3%;
+    left: 72%;  
 }
