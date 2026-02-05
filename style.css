@@ -44,7 +44,7 @@ body{
     right: 3%;
     /* left: 10%; */
 }
-.Action{
+.action{
     border-radius: 20px;
     width: 20%;
     position: absolute;
@@ -105,7 +105,7 @@ body{
     width:20%;   
     margin-top: 20px; 
     margin-bottom: 20px; 
-
+    
 }
 
 .IncrustBox{
@@ -136,30 +136,114 @@ body{
     right: 3%;
     left: 72%;  
 }
-.MenuBox2{
+.menuBox2{
     display: flex;
-    justify-content: center;
-    
-    Position: relative;
+    flex-direction: column;
     Background-color:#054553;
     color:white;
-}    
-.boxjumelee2{
-      width:96%;
-
-}
+} 
 
 .Wond2{
-    width: 20%; 
+    width: 80%; 
+
+}
+.menubox3{
+    background-color: rgb(232, 224, 224);
+    display: flex;
+    flex-direction: column;
+
+}    
+.boxAlign2{
+    display: flex;
+    justify-content: center;
+}   
+.boxjumelee3{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menubox4{
+    background-color: rgb(232, 224, 224);
+    display: flex;
+    flex-direction: column;
+
+}
+.box_wonder2{
+
+    background-color: #FFFFFF;
+    text-align: left;
+    
+}
+.box_wonder3{
+    height: 450px;
+    background-color: #FFFFFF;
+    text-align: left;
+    
+} 
+.box12{
+    padding: 2.5em;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.boxText12{
+    padding:14%
+}
+.boxText13{
+    padding-bottom: 15%;
+}
+
+.box13{
+
+    padding: 75px;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.Wond5{
+    width: 350px; 
+    margin-top:1%;
+}  
+.Wond6{
+    width: 380px; 
+    margin-top:1%;
+}   
+.boxAlign3{
+    display: flex;
+    justify-content:center;
+}   
+.boxjumelee4{
+    width: 40%;
+    height:10%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.box16{
+    width: 360px;
+
+    background-color: #FFFFFF;
+    text-align: left;
 
 }
 .box5{
     padding: 20px;
-    background-color: #FFFFFF00;
-    text-align: left;
-    
-
 }
+.boxAlign{
+    display: flex;
+   
+}  
+.boxjumelee2{
+    width:96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .box6{
     padding: 20px;
  background-color: #FFFFFF00;
@@ -172,34 +256,11 @@ body{
     text-align: left;
 
 }
-.Action2{
- border-radius: 20px;
+.action2{
+    border-radius: 20px;
     width: 20%;
-    position: absolute;
-    top:80%;
-    bottom:5%;
-    right: 15%;   
-}
-.box_wonder2{
-
-    padding: 93px;
-    background-color: #FFFFFF;
-    text-align: left;
-
-}
-.box12{
-
-    padding: 75px;
-    background-color: #FFFFFF;
-    text-align: left;
-
-}
-.box13{
-
-    padding: 75px;
-    background-color: #FFFFFF;
-    text-align: left;
-
+    display: block;
+    
 }
 .box14{
 
@@ -211,7 +272,7 @@ body{
 .TltleParcs{
     display:flex;
     justify-content: center;
-    background-color: ;
+    /* background-color: ; */
     margin-top: 1%;
     margin-bottom: 1%;
     background-color: rgb(232, 224, 224);
@@ -221,16 +282,11 @@ body{
     position: relative;
 }
 .Wond3{
-    width:95%; 
-    
+    width:100%; 
+    background-color: #FFFFFF;
+   
 }
-.boxjumelee4{
 
-    width:20%;   
-    margin-top: 20px; 
-    margin-bottom: 20px; 
-    
-}
 .LogoIncrust12{
     width: 20%;
     position: absolute;
