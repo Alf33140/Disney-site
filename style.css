@@ -44,6 +44,48 @@ body{
     right: 3%;
     /* left: 10%; */
 }
+.IncrustBox2film{
+    position: absolute;
+    /* top: 10%; */
+    bottom:50%;
+    right: 3%;
+    left: 30%;  
+}
+.LogoIncrustboutique{
+    width: 30%;
+    position: absolute;
+    /* top: 10%; */
+    bottom: 45%;
+    right: 1%;
+    left: 6%;
+    color: #FFFFFF;
+}
+.Lien2Incrustboutique{
+    width: 30%;
+    position: absolute;
+    /* top: 10%; */
+    bottom: 39%;
+    right: 1%;
+    left: 11%;
+    color: #FFFFFF;
+}
+.lienIncrustboutique{
+    width: 30%;
+    position: absolute;
+    /* top: 10%; */
+    bottom: 33%;
+    right: 1%;
+    left: 18%;
+    color: #FFFFFF;
+}
+.LogoIncrust12{
+    width: 20%;
+    position: absolute;
+    top: 590%;
+    bottom: 48%;
+    right: 10%;
+    left: 10%;
+}
 .action{
     border-radius: 20px;
     width: 20%;
@@ -52,10 +94,20 @@ body{
     bottom:35%;
     right: 15%;
 }
-.Abonnement{
+.action2{
+    border-radius: 20px;
+    width: 20%;
     position: absolute;
-    top:90%;
-    right: 10%;
+    top:60%;
+    bottom:35%;
+    right: 15%;
+
+}
+.Abonnement{
+    width: 10%;
+    position: absolute;
+    top:123%;
+    right: 2%;
 }
 .Menubox{
     position: relative;
@@ -71,6 +123,18 @@ body{
 .Wond{
     width: 99%; 
     margin-top:1%;
+}
+.wonddim2{
+
+    width: 80%; 
+    margin-top:1%;
+}
+.box12dim2{
+    margin-right: 15%;
+    background-color: #FFFFFF00;
+    text-align: left;
+    color:black;
+
 }
 .box_wonder{
 
@@ -148,12 +212,17 @@ body{
 
 }
 .menubox3{
+    position: relative;
     background-color: rgb(232, 224, 224);
     display: flex;
     flex-direction: column;
 
 }    
 .boxAlign2{
+    display: flex;
+    justify-content: center;
+}   
+.boxAlign4{
     display: flex;
     justify-content: center;
 }   
@@ -183,6 +252,11 @@ body{
 } 
 .box12{
     padding: 2.5em;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.box12spec{
     background-color: #FFFFFF;
     text-align: left;
 
@@ -219,19 +293,36 @@ body{
     display: flex;
     flex-direction: column;
    
+}
+.lienIncrustActu{
+    width: 35%;
+    position: absolute;
+    /* top: 10%; */
+    bottom: 40%;
+    right: 1%;
+    left: 32%;
+    color: #FFFFFF;
+    font-size: 3rem;
     
 }
-
+.actionActu{
+    border-radius: 25px;
+    width: 20%;
+    height: 8%;
+    position: absolute;
+    top:60%;
+    bottom:40%;
+    right: 15%;
+    left: 38.5%;
+    font-size: 1rem;
+}
 .box16{
     width: 360px;
-
     background-color: #FFFFFF;
     text-align: left;
 
 }
-.box5{
-    padding: 20px;
-}
+
 .boxAlign{
     display: flex;
    
@@ -243,17 +334,20 @@ body{
     justify-content: center;
     align-content: center;
 }
-
+.box5{
+    padding: 20px;
+    text-align: center;
+}
 .box6{
     padding: 20px;
  background-color: #FFFFFF00;
-    text-align: left;  
+    text-align: center;  
 
 }
 .box7{
     padding: 20px;
     background-color: #FFFFFF00;
-    text-align: left;
+    text-align: center;
 
 }
 .action2{
@@ -329,4 +423,21 @@ body{
     bottom:6%;
     right: 3%;
     left: 72%;  
+}
+.MenuboxFooter{
+    position: relative;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 50px;
+ 
+    background-color: rgb(232, 224, 224);
+}
+.centerFooter{
+    
+    
+
+    
 }
