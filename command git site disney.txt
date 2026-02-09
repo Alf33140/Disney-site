@@ -6,4 +6,4 @@ git push -u origin main
 
 git add * "commentaires modifications"
 git commit -m
-git push -u origin main  add
+git push -u origin main 

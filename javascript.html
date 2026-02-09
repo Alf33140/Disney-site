@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+        // Exo 3 boucle Fizz Buzz//
+            for(let nb = 1; nb<=199; nb++){
+                if(nb%3 === 0){ // nb multiple(%) de 3 strictement égal à 0//
+                    console.log('Fizz');
+                }
+                if(nb%5 === 0){ // nb multiple(%) de 5 strictement égal à 0//
+                    console.log('Buzz');
+            }
+                if(nb%3 === 0 && nb%5 === 0){ //  fonction ET (11) aux deux conditions//
+                    console.log('Fizz Buzz');
+                }
+                    else(console.log(nb));
+            }
+        </script>
+        
+       
+
+         <script>
+             // Exo 4 Chat-bot//
+            // Exo 4.1 Chat-bot Bete mais poli//
+            let discussion = prompt('Bienvenu chez Chat-bot');
+                if(discussion === 'bonjour'){
+                    alert('Bonjour ! Ca va?')
+                }
+                else if(discussion === 'Tu vas bien?'){
+                    alert('Je suis content pour toi.')
+                }
+                    else {
+                    alert('Désolé, il faut que je file..')
+                }  
+        </script>
+        
+       
+           
+    </body>
+</html>
