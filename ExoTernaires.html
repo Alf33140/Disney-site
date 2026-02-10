@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Acces autorise et acces refuse -->
+    <script>
+            let age = prompt('Bonjour , Quel est age?');
+            let message = age >=18 ? alert('acces autorise') : alert('acces refuse') ;
+            console.log(message);
+
+            let prenom = prompt('Bonjour , Quel est ton prénom?');
+            let reponse =  prenom = true ? alert('Bonjour' + prenom) : alert('Aucun prénom saisi');
+        
+            let question = prompt('Peux tu me donner un nombre?');
+            
+            let reponseNombre = NumIsPair(question) ? alert("c'est un nombre Pair!") : alert("c'est un nombre Impair!")
+            console.log(reponseNombre)
+        </script>
+</body>
+</html>

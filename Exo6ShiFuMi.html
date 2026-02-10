@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Phase 1 fonction Compare le Choix 1 ordi et choix 2 utilisateur -->
+      <script>
+        function compare(choix1, choix2){
+                if(choix1 === choix2){
+                    return'Egalité Vous pouvez rejouer';
+                }
+                if(choix1 === 'Pierre'){   
+                    if(choix2 === 'Ciseau') {
+                        return "ordi";
+                    } else {
+                        return 'joueur';
+                    }
+                
+                }
+                if(choix1 === 'Feuille'){   
+                    if(choix2 === 'Pierre') {
+                        return "ordi";
+                    } else {
+                        return 'joueur';
+                    }
+                
+                }
+                if(choix1 === 'Ciseau'){   
+                    if(choix2 === 'Feuille') {
+                        return "ordi";
+                    } else {
+                        return 'joueur';
+                    }
+                
+                }
+                
+            }
+            function jeu() {
+                let scoreOrdi = 0;
+                let scoreJoueur = 0;
+
+                for(let i = 0; i < 3; i++) {
+                    let choixOrdi = Math.random() < 0.33 ? "Pierre" : Math.random() < 0.66 ? "Feuille" : "Ciseau";
+                    let choixJoueur = prompt("Choisissez 'Pierre', 'Feuille' ou 'Ciseau'");
+                    let resultat = compare(choixOrdi, choixJoueur);
+                    console.log("Le resumtat est :", resultat);
+
+                    if(resultat === 'ordi'){
+                        scoreOrdi++;
+                    } else if (resultat = 'joueur')
+                        scoreJoueur++;
+                }
+
+                if (scoreOrdi > scoreJoueur) {
+                    alert("L'ordi a gagné");
+                } else if (scoreOrdi < scoreJoueur) {
+                    alert("Le joueur a gagné");
+                } else {
+                    alert("Match nul");
+                }
+            }
+            jeu();
+            
+        
+    </script>
+</body>
+</html>
